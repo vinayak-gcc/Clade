@@ -6,36 +6,37 @@ import Atlassian from '../Images/Rectangle 43.svg'
 
 const jobpreview = () => {
   return (
-    <div className=' border-stone-90 tracking-wide border'>
+    <div className='w-[100%] border-stone-90 tracking-wide border'>
 
       {/* First Tab */}
-      <div className='mt-6  '>
+      <div className='mt-4  '>
         <div className='flex ml-6 flex-col items-center justify-center 
-        lg:flex-row md:ml-6 lg:ml-24 md:items-start md:justify-start'>
+        lg:flex-row md:ml-6 lg:ml-20 md:items-start md:justify-start'>
 
 
-          <p className='text-4xl font-bold my-3 ' size={35}>
+          <p className='text-2xl font-bold  ' size={35}>
 
             {/* Orange Underline */}
-            <div className='w-[0] md:w-[64px] ml-0 bg-orange-600 h-[4px] -mt-10 md:ml-4 ' > </div>
+            <div className='w-[0] md:w-[48px] ml-0 bg-orange-600 h-[4px] -mt-5 md:ml-4 ' > </div>
             {/* Orange Underline */}
 
-            <div className='flex text-center mt-9 md:items-start md:justify-start  '>
+            <div className='flex text-center text-balance mt-9 md:items-start md:justify-start  '>
               Senior Product Designer
             </div>
           </p>
 
 
-          <p className='lg:mx-4 lg:place-self-center flex text-base
-            text-gray-500 md:justify-start items-start'>
+          <p className='lg:mx-3 lg:place-self-center flex text-xs mt-4
+            text-gray-500 md:justify-start items-start leading-3'>
             posted 2 days ago
           </p>
 
-          <div className=' bg-green-200  border-2 flex md:justify-start md:items-start 
-          lg:place-self-center  border-green-700 rounded-full '>
-            <div className='flex mx-3'>
-              <div className='w-2 h-2 rounded-full bg-green-700 place-self-center'></div>
-              <p className='text-green-700 font-bold ml-2'>
+          <div className='w-16 bg-green-200  border-[1px] flex md:justify-start md:items-start 
+          lg:place-self-center  border-green-700 rounded-full mt-4'>
+            <div className='flex text-xs mx-2'>
+              <div className='w-1.5 h-1.5 rounded-full bg-green-700 place-self-center'>
+              </div>
+              <p className='text-green-700 w-[8px] ml-2 text-xs '>
                 Open
               </p>
             </div>
@@ -46,22 +47,22 @@ const jobpreview = () => {
 
         <div>
 
-          <div className='flex flex-col ml-4 md:flex-row mt-4  md:ml-6 lg:ml-24 my-4 mb-4'>
+          <div className='flex flex-col ml-4 md:flex-row mt-4  md:ml-6 lg:ml-20 my-4 mb-6'>
             <div className='flex place-self-center ' >
-              
+
               <div className='flex '>
-                <img src={Location} alt='' className='text-3xl' />
+                <img src={Location} alt='' className='text-sm w-5 h-5 ' />
               </div>
-              <p className='ml-4 text-xl' size={20}>
-                Delaware , USA
+              <p className='ml-1 text-sm' size={20}>
+                Delaware, USA
               </p>
             </div>
 
             <div className='flex place-self-center my-2 md:my-0'>
-              <div className='ml-4 md:ml-12 flex flex-col'>
-                <img src={Stack} alt='' size={30} className='text-3xl' />
+              <div className='ml-4 md:ml-4 flex flex-col'>
+                <img src={Stack} alt='' size={30} className='text-xs' />
               </div>
-              <p className='ml-4 text-xl'>
+              <p className='ml-2 text-sm'>
                 $300k-$400k
               </p>
             </div>
@@ -73,23 +74,23 @@ const jobpreview = () => {
       {/* First Tab */}
 
       {/* Second Tab */}
-      <div className=' mt-8 border-2 border-r-0 text-start'>
+      <div className=' mt-2 border-2 border-r-0 text-start text-xs'>
 
         <div className='leading-tight '>
 
-          <div className='ml-6 lg:ml-24 flex flex-col lg:flex-row
-           md:flex-col mt-8  lg:space-x-32'>
+          <div className='ml-6 lg:ml-20 flex flex-col lg:flex-row
+           md:flex-col mt-6 mb-4 lg:space-x-20'>
 
-            <div className='space-y-4 leading-tight mb-8'>
-              <p>Skills Required</p>
-              <div className='flex  md:items-start'>
+            <div className='space-y-3 leading-tight mb-8'>
+              <p className='text-xs'>Skills Required</p>
+              <div className='flex  md:items-start h-12 w-24' size={10}>
                 <img src={Tags} alt='' />
               </div>
             </div>
 
             <div className=''>
               <p>Preferred Language </p>
-              <p className='mt-1 text-lg lg:mt-4 font-normal '>
+              <p className='mt-1 text-xs lg:mt-4 font-normal '>
                 English
               </p>
             </div>
@@ -98,7 +99,7 @@ const jobpreview = () => {
               <p className='mt-4 lg:mt-0'>
                 Type
               </p>
-              <p className='mt-1 text-lg lg:mt-4 font-normal'>
+              <p className='mt-1 text-xs lg:mt-4 font-normal'>
                 Full Time
               </p>
             </div>
@@ -107,7 +108,7 @@ const jobpreview = () => {
               <p className='mt-4 lg:mt-0'>
                 Years Of Experience
               </p>
-              <p className='mt-1 mb-4 text-lg font-normal lg:mt-4 leading-tight lg:mb-0'>
+              <p className='mt-1 mb-4 text-xs font-normal lg:mt-4 leading-tight lg:mb-0'>
                 3+ Years Of Experience
               </p>
             </div>
@@ -123,11 +124,11 @@ const jobpreview = () => {
       {/* Third Tab */}
       <div className='my-8 '>
 
-        <div className='mx-6 lg:ml-24 space-y-4 text-xl'>
+        <div className='mx-6 lg:ml-20 space-y-4 text-xs'>
 
           <div className='space-y-4'>
 
-            <p className='text-base'>About The Job</p>
+            <p className='font-normal'>About The Job</p>
             <p>1. Handle the UI/UX research design<br />
               2. Work on researching on latest web applications designs &<br />
               trends<br />
@@ -166,54 +167,56 @@ const jobpreview = () => {
       {/* Third Tab */}
 
       {/* Fourth Tab */}
-      <div className='border-2 border-r-0 text-start '>
+      <div className='border-2 border-r-0 text-start text-sm '>
 
         <div className=''>
-          <div className=' mx-6  flex  lg:ml-24 my-10 lg:text-start'>
+          <div className=' mx-6  flex  lg:ml-20 my-10 lg:text-start'>
             <img src={Atlassian} alt='' />
-            <p className='text-xl place-self-center mx-4'>
+            <p className='text-sm place-self-center mx-2'>
               Atlassian
             </p>
 
             <div className='bg-[#E0EBF9] rounded-lg place-self-center'>
-              <p className='p-2 mx-2 text-sky-800 font-bold text-sm'>
-                Follow
-              </p>
+              <div className='p-1 mx-1  text-sky-800 font-semibold text-xs'>
+                <div className='text-xs'>
+                  Follow
+                </div>
+              </div>
             </div>
           </div>
 
         </div>
 
 
-        <div className='mx-6 flex flex-col lg:ml-24 md:flex-row '>
+        <div className='mx-6 flex flex-col text-xs lg:ml-20 md:flex-row '>
           <div className=''>
             <p className=''>Company Size</p>
-            <p className='text-lg'>1k - 2k Employees</p>
+            <p className='text-xs'>1k - 2k Employees</p>
 
             <p className='mt-4'>Sector</p>
-            <p className='text-lg'>Information Technology, Infrastructure</p>
+            <p className='text-xs'>Information Technology, Infrastructure</p>
 
             <p className='mt-4'>Founded In</p>
-            <p className='text-lg'>2019</p>
+            <p className='text-xs'>2019</p>
           </div>
 
           <div className='mx-0 flex flex-col lg:mx-32 lg:flex-row'>
             <div className='mx-0 mt-6 md:mt-0 md:ml-4'>
               <p>Type</p>
-              <p className='text-lg'>Private</p>
+              <p className='text-xs'>Private</p>
 
               <p className='mt-4'>Funding</p>
-              <p className='text-lg'>BootStrapped</p>
+              <p className='text-xs'>BootStrapped</p>
 
               <p className='mt-4'>Founded by</p>
-              <p className='text-lg'>Scott Farquhar, Mike Cannon-Brookes</p>
+              <p className='text-xs'>Scott Farquhar, Mike Cannon-Brookes</p>
             </div>
           </div>
 
         </div>
 
-        <div className='ml-6 lg:ml-24 my-6'>
-          <p className='text-sm underline underline-offset-4  mt-8 text-gray-500'>
+        <div className='ml-6 lg:ml-20 my-6'>
+          <p className='text-xs underline underline-offset-4  mt-8 text-gray-500'>
             Report this listing
           </p>
         </div>

@@ -2,10 +2,10 @@ import React from 'react'
 
 const pageoptions = () => {
   return (
-    <div className='flex flex-col border border-stone-900 border-r-0 text-slate-600'>
+    <div className='w-[100%] flex flex-col border border-stone-900 border-r-0 text-gray-600'>
       <div className='space-x-2 ml-4 flex justify-center items-center
-       flex-col md:items-start md:justify-start md:flex-row my-5 
-       md:space-x-10 lg:space-x-20 md:ml-6 lg:ml-24 font-small text-xl  '>
+       flex-col md:items-start md:justify-start md:flex-row my-4 
+       md:space-x-10 lg:space-x-14 md:ml-6 lg:ml-20 font-small text-sm  '>
 
         <div className=''>
           <p className='text-orange-700 ' >
